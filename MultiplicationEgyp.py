@@ -3,7 +3,7 @@ def Egypt(x,y):
 
 	while(y > 0):
 		if(y % 2 == 0):
-			x *= 2
+			x += 2
 			y /= 2
 		else:
 			resultat += x

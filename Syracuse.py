@@ -6,5 +6,6 @@ def syracuse(n):
             n = n*3+1
         else:
             n = n // 2
+    print(n)
 y = int(input("Donnez la valeur de y = "))
 syracuse(y)
